@@ -1,0 +1,4 @@
+0 Leaf Spots
+1 Rust
+2 Powdery Mildew
+3 Halo Blight
