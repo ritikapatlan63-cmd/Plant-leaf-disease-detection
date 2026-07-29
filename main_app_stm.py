@@ -51,7 +51,7 @@ with col1:
 # RIGHT COLUMN
 # LLM Description
 # ===================================
-        secrets.st['groq_api']
+        groq_api=secrets.st['groq_api']
         output = llm_app.llm_app(topic, groq_api)
 
         with col2:
