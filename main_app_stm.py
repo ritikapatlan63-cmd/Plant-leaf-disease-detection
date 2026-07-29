@@ -8,12 +8,12 @@ import llm_app
 # Page Configuration
 # -----------------------------------
 st.set_page_config(
-    page_title="Image Topic Prediction",
+    page_title="Plant Leaf Disease Detection",
     page_icon="🖼️",
     layout="wide"
 )
 
-st.title("🖼️ Image Topic Prediction using LLM")
+st.title("🖼️ Plant Leaf Disease Detection")
 
 # Create two columns
 col1, col2 = st.columns([1, 2])
