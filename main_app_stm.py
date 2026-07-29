@@ -51,7 +51,7 @@ with col1:
 # RIGHT COLUMN
 # LLM Description
 # ===================================
-        groq_api="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"
+        secrets.st['groq_api']
         output = llm_app.llm_app(topic, groq_api)
 
         with col2:
